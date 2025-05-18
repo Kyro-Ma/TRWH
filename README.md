@@ -1,6 +1,9 @@
 # TRWH
 A Text-Driven Random Walk Heterogeneous GNN for Semantic-Aware Sparse Recommendation
 
+![Mainstructure of TRWH](mainstructure.png)
+
+
 # Dataset
 In this paper，we apply Amazon 2023 review dataset to evaluate our experiments - Amazon All_Beauty and Fashion.
 
