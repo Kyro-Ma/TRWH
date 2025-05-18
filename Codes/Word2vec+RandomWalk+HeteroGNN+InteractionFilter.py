@@ -506,10 +506,10 @@ def random_walk(item_user_edge):
 
 
 if __name__ == '__main__':
-    beauty_path = '../Datasets/beauty.pkl'
-    fashion_path = '../Datasets/fashion.pkl'
-    meta_beauty_path = '../Datasets/meta_beauty.pkl'
-    meta_fashion_path = '../Datasets/meta_fashion.pkl'
+    beauty_path = '../../Datasets/beauty.pkl'
+    fashion_path = '../../Datasets/fashion.pkl'
+    meta_beauty_path = '../../Datasets/meta_beauty.pkl'
+    meta_fashion_path = '../../Datasets/meta_fashion.pkl'
     beauty_w2v_path = 'beauty_w2v_model.model'
     fashion_w2v_path = 'fashion_w2v_model.model'
     num_chunks = 5
