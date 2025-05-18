@@ -19,5 +19,11 @@ pip install -r requirements.txt
 ```
 Our experiments were conducted on both Linux and Windows platforms using Python 3.12. The LLMs-based experiments were conducted on a Linux system equipped with 8 40GB A100 GPUs, while the Word2Vec-based experiments were performed on a Windows system with a NVIDIA RTX 4080 GPU. The CUDA versions used were 12.0 on Linux and 12.6 on Windows. For PyTorch, we used version 2.6.0+cu118 on Linux and 2.7.0+cu126 on Windows.
 
-#Training and Evaluation
-In Codes directory, there are four files
+# Training and Evaluation
+In Codes directory, each file represents one of our proposed methods. 
+
+```bash
+cd Codes
+
+python <LLMHet.py/LLMRHet.py/W2VHet.py/W2VRHet.py> # sekect one of methods
+```
