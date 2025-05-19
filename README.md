@@ -21,7 +21,7 @@
 | **W2VHet [*]**    | 1.0775  | 0.9105 |
 | **LLMHet [*]**    | **1.0604** | 0.9107 |
 
-> Table 1: Performance on Fashion Dataset; [*] denotes our proposed methods.
+> Table 1: Performance on Amazon 2023 Fashion Dataset; [*] denotes our proposed methods.
 
 
 | Model              | RMSE    | MAE    |
@@ -36,7 +36,7 @@
 | **W2VHet [*]**      | 0.9204  | 0.8549 |
 | **LLMHet [*]**      | **0.8944** | 0.8421 |
 
-> Table 2: Performance on Beauty Dataset; [*] denotes our proposed methods.
+> Table 2: Performance on Amazon 2023 Beauty Dataset; [*] denotes our proposed methods.
 
 # Dataset
 In this paper，we apply Amazon 2023 review dataset to evaluate our experiments - Amazon All_Beauty and Fashion.
