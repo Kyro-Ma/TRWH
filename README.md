@@ -2,7 +2,20 @@
 
 ![Mainstructure of TRWH](mainstructure.png)
 
+# Our results
+| Model              | RMSE    | MAE    |
+|--------------------|---------|--------|
+| MF                 | 1.1973  | 0.9461 |
+| MLP                | 1.3078  | 0.9597 |
+| P5                 | 1.2843  | 0.8534 |
+| ChatGPT (few-shot) | 1.0751  | **0.6977** |
+| Homogeneous GNN    | 1.18    | 1.69   |
+| **W2VRHet [*]**     | 0.9327  | 0.8496 |
+| **LLMRHet [*]**     | 0.9134  | 0.8533 |
+| **W2VHet [*]**      | 0.9204  | 0.8549 |
+| **LLMHet [*]**      | **0.8944** | 0.8421 |
 
+> Table 2: Performance on Beauty Dataset; [*] denotes our proposed methods.
 # Dataset
 In this paper，we apply Amazon 2023 review dataset to evaluate our experiments - Amazon All_Beauty and Fashion.
 
