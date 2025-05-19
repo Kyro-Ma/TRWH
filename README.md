@@ -21,7 +21,8 @@
 | **W2VHet [*]**    | 1.0775  | 0.9105 |
 | **LLMHet [*]**    | **1.0604** | 0.9107 |
 
-> Table: Performance on Fashion Dataset; [*] denotes our proposed methods.
+> Table 1: Performance on Fashion Dataset; [*] denotes our proposed methods.
+
 
 | Model              | RMSE    | MAE    |
 |--------------------|---------|--------|
