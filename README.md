@@ -4,38 +4,64 @@
 
 # Our results
 
-| Model             | RMSE    | MAE    |
-|-------------------|---------|--------|
-| P²MF              | 11.091  | 2.538  |
-| APAR              | 19.483  | 3.712  |
-| PTUPCDR           | 7.927   | 1.411  |
-| CDRIB             | 7.063   | 1.437  |
-| UniCDR            | 7.173   | 1.45   |
-| NMCDR             | 8.98    | 3.215  |
-| RealHNS           | 8.64    | 1.520  |
-| MAN               | 10.43   | 5.984  |
-| Homogeneous GNN   | 1.15    | 1.66   |
-| PEMF-CD           | 6.96    | 1.392  |
-| **W2VRHet [*]**   | 1.0731  | **0.9089** |
-| **LLMRHet [*]**   | 1.0698  | 0.9191 |
-| **W2VHet [*]**    | 1.0775  | 0.9105 |
-| **LLMHet [*]**    | **1.0604** | 0.9107 |
+<table>
+  <tr>
+    <td>
 
-> Table: Performance on Fashion Dataset; [*] denotes our proposed methods.
+<!-- Fashion Table -->
+<b>Table 1: Fashion Dataset</b>  
+<i>[*] denotes our proposed methods</i>
 
-| Model              | RMSE    | MAE    |
-|--------------------|---------|--------|
-| MF                 | 1.1973  | 0.9461 |
-| MLP                | 1.3078  | 0.9597 |
-| P5                 | 1.2843  | 0.8534 |
-| ChatGPT (few-shot) | 1.0751  | **0.6977** |
-| Homogeneous GNN    | 1.18    | 1.69   |
-| **W2VRHet [*]**     | 0.9327  | 0.8496 |
-| **LLMRHet [*]**     | 0.9134  | 0.8533 |
-| **W2VHet [*]**      | 0.9204  | 0.8549 |
-| **LLMHet [*]**      | **0.8944** | 0.8421 |
+<table>
+<thead>
+<tr><th>Model</th><th>RMSE</th><th>MAE</th></tr>
+</thead>
+<tbody>
+<tr><td>P²MF</td><td>11.091</td><td>2.538</td></tr>
+<tr><td>APAR</td><td>19.483</td><td>3.712</td></tr>
+<tr><td>PTUPCDR</td><td>7.927</td><td>1.411</td></tr>
+<tr><td>CDRIB</td><td>7.063</td><td>1.437</td></tr>
+<tr><td>UniCDR</td><td>7.173</td><td>1.45</td></tr>
+<tr><td>NMCDR</td><td>8.98</td><td>3.215</td></tr>
+<tr><td>RealHNS</td><td>8.64</td><td>1.520</td></tr>
+<tr><td>MAN</td><td>10.43</td><td>5.984</td></tr>
+<tr><td>Homogeneous GNN</td><td>1.15</td><td>1.66</td></tr>
+<tr><td>PEMF-CD</td><td>6.96</td><td>1.392</td></tr>
+<tr><td><b>W2VRHet [*]</b></td><td>1.0731</td><td><b>0.9089</b></td></tr>
+<tr><td><b>LLMRHet [*]</b></td><td>1.0698</td><td>0.9191</td></tr>
+<tr><td><b>W2VHet [*]</b></td><td>1.0775</td><td>0.9105</td></tr>
+<tr><td><b>LLMHet [*]</b></td><td><b>1.0604</b></td><td>0.9107</td></tr>
+</tbody>
+</table>
 
-> Table 2: Performance on Beauty Dataset; [*] denotes our proposed methods.
+</td>
+<td style="padding-left: 40px;">
+
+<!-- Beauty Table -->
+<b>Table 2: Beauty Dataset</b>  
+<i>[*] denotes our proposed methods</i>
+
+<table>
+<thead>
+<tr><th>Model</th><th>RMSE</th><th>MAE</th></tr>
+</thead>
+<tbody>
+<tr><td>MF</td><td>1.1973</td><td>0.9461</td></tr>
+<tr><td>MLP</td><td>1.3078</td><td>0.9597</td></tr>
+<tr><td>P5</td><td>1.2843</td><td>0.8534</td></tr>
+<tr><td>ChatGPT (few-shot)</td><td>1.0751</td><td><b>0.6977</b></td></tr>
+<tr><td>Homogeneous GNN</td><td>1.18</td><td>1.69</td></tr>
+<tr><td><b>W2VRHet [*]</b></td><td>0.9327</td><td>0.8496</td></tr>
+<tr><td><b>LLMRHet [*]</b></td><td>0.9134</td><td>0.8533</td></tr>
+<tr><td><b>W2VHet [*]</b></td><td>0.9204</td><td>0.8549</td></tr>
+<tr><td><b>LLMHet [*]</b></td><td><b>0.8944</b></td><td>0.8421</td></tr>
+</tbody>
+</table>
+
+</td>
+  </tr>
+</table>
+
 # Dataset
 In this paper，we apply Amazon 2023 review dataset to evaluate our experiments - Amazon All_Beauty and Fashion.
 
