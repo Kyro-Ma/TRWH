@@ -3,6 +3,26 @@
 ![Mainstructure of TRWH](mainstructure.png)
 
 # Our results
+
+| Model             | RMSE    | MAE    |
+|-------------------|---------|--------|
+| P²MF              | 11.091  | 2.538  |
+| APAR              | 19.483  | 3.712  |
+| PTUPCDR           | 7.927   | 1.411  |
+| CDRIB             | 7.063   | 1.437  |
+| UniCDR            | 7.173   | 1.45   |
+| NMCDR             | 8.98    | 3.215  |
+| RealHNS           | 8.64    | 1.520  |
+| MAN               | 10.43   | 5.984  |
+| Homogeneous GNN   | 1.15    | 1.66   |
+| PEMF-CD           | 6.96    | 1.392  |
+| **W2VRHet [*]**   | 1.0731  | **0.9089** |
+| **LLMRHet [*]**   | 1.0698  | 0.9191 |
+| **W2VHet [*]**    | 1.0775  | 0.9105 |
+| **LLMHet [*]**    | **1.0604** | 0.9107 |
+
+> Table: Performance on Fashion Dataset; [*] denotes our proposed methods.
+
 | Model              | RMSE    | MAE    |
 |--------------------|---------|--------|
 | MF                 | 1.1973  | 0.9461 |
