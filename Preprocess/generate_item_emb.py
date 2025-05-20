@@ -11,10 +11,9 @@ In local, run import below
 In linux, run import below
 '''
 import os
-
+import pandas as pd
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(os.path.join(parent_dir, 'Codes'))
-from utils import load_dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, set_seed
 from sentence_transformers import SentenceTransformer
 import pickle
@@ -23,6 +22,10 @@ import gc
 import re
 from tqdm import tqdm  # Import tqdm for progress bar
 import torch.nn as nn
+
+def load_dataset(file_path):
+    df = pd.read_pickle(file_path)
+    return df
 
 if __name__ == '__main__':
     beauty_item_profile_path = '../Datasets/beauty_item_profile.pkl'

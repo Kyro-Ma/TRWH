@@ -17,11 +17,20 @@ def load_jsonl_data(file_path):
 
 
 if __name__ == '__main__':
-    path = '../Datasets/Movies_and_TV.jsonl'
-    meta_path = '../Datasets/meta_Movies_and_TV.jsonl'
+    path = '../Datasets/All_Beauty.jsonl'
+    meta_path = '../Datasets/meta_All_Beauty.jsonl'
 
     df = load_jsonl_data(path)
     meta_df = load_jsonl_data(meta_path)
 
-    df.to_pickle('../Datasets/Movies_and_TV.pkl')
-    meta_df.to_pickle('../Datasets/meta_Movies_and_TV.pkl')
+    df.to_pickle('../Datasets/All_Beauty.pkl')
+    meta_df.to_pickle('../Datasets/meta_All_Beauty.pkl')
+
+    path = '../Datasets/Amazon_Fashion.jsonl'
+    meta_path = '../Datasets/meta_Amazon_Fashion.jsonl'
+
+    df = load_jsonl_data(path)
+    meta_df = load_jsonl_data(meta_path)
+
+    df.to_pickle('../Datasets/Amazon_Fashion.pkl')
+    meta_df.to_pickle('../Datasets/meta_Amazon_Fashion.pkl')
