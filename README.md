@@ -67,7 +67,7 @@ cd Codes
 python <W2VHet.py/W2VRHet.py> # select one of methods
 ```
 
-For LLM-based approaches, we firstly generate user and item prompts. Next, we generate their profiles with their prompts. Then, generate embeddings for users and items respectively before training. Finally, we input these embeddings into Hetegeneous graph for training:
+For LLM-based approaches, we firstly generate user and item prompts. Next, we generate their profiles with their prompts. Then, generate embeddings for users and items respectively before training. Finally, we input these embeddings into Heterogeneous graph for training:
 ```bash
 cd Preprocess
 
